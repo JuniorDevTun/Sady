@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sady | Happy Sad Emoji</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Emojis Have feelings too 😊😟</h1>
+            <p>Type in the word "sad" or "happy" for the emoji to change</p>
+        </header>
+        <main>
+            <div class="flex">
+                <form method="POST">
+                    <input type="text" id="input" placeholder="happy, sad" required pattern="[a-z]*">
+                    <input type="submit" value="Change Emoji 👌">
+                </form>
+                <div class="display">
+                    <img src="img/happy.png" alt="emoji">
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
